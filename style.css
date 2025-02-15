@@ -1,0 +1,163 @@
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a2238;
+    height: 80px;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+a:hover {
+    color: darkviolet;
+    transition: .3s all ease-in-out;
+    text-shadow: 2px 2px 2px darkslateblue;
+}
+
+nav ul {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+
+.judul {
+    margin-right: auto;
+    padding: 15px;
+}
+
+.judul:hover {
+    color: dodgerblue;
+    transition: .3s all ease-in-out;
+    text-shadow: 4px 4px 4px black;
+}
+
+.logo {
+    margin-right: auto;
+    display: flex;
+    gap: 6px;
+}
+
+.intro {
+    background-image: url(aset/Kuliner-jatim.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.teks {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    color: goldenrod;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.btn {
+    padding: 3px;
+    margin: 30px;
+    font-size: 18px;
+    color: white;
+    background-color: tomato;
+    border-radius: 5px;
+    border: 2px solid tomato;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    background: none;
+    border: 1px solid tomato;
+    color: tomato;
+    transition: .4s all ease-in-out;
+}
+
+#isi {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 150px;
+}
+
+.gambar {
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.haha {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 700;
+}
+
+.penutup {
+    background-color: tomato;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 250px;
+    height: 150px;
+    margin-right: auto;
+}
+
+.tulisan {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.tulis {
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot {
+    background-color: #1a2238;
+    height: 80px
+}
+
+.udah {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: dimgrey;
+    padding-top: 35px;
+    font-size: 20px;
+}
